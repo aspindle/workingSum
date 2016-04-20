@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 else { num2 = Integer.parseInt(y.getText().toString()); }
                 sum = sum(num1, num2);
                 answer.setText(Integer.toString(sum));
+                //Bitches be cray
             }
         });
     }
