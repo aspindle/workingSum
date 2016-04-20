@@ -1,10 +1,7 @@
-package com.example.kmklein.lab3.tests;
+package com.example.kmklein.dimsum;
 
 import android.test.ActivityInstrumentationTestCase2;
 import android.widget.TextView;
-
-import com.example.kmklein.lab3.MainActivity;
-import com.example.kmklein.lab3.R;
 
 import org.w3c.dom.Text;
 
@@ -27,6 +24,6 @@ public class JUnit_test extends ActivityInstrumentationTestCase2<MainActivity> {
     public void test_first() {
         mainActivity = getActivity();
 
-        assertEquals(0, sum(0, 0));
+        assertEquals(0, mainActivity.sum(0, 0));
     }
 }
